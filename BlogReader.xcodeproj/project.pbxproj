@@ -15,6 +15,8 @@
 		49325E53221EF217006CD2E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49325E51221EF217006CD2E9 /* LaunchScreen.storyboard */; };
 		49325E5E221EF217006CD2E9 /* BlogReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49325E5D221EF217006CD2E9 /* BlogReaderTests.swift */; };
 		49325E69221EF217006CD2E9 /* BlogReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49325E68221EF217006CD2E9 /* BlogReaderUITests.swift */; };
+		49325E7722208F33006CD2E9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49325E7622208F33006CD2E9 /* WebViewController.swift */; };
+		49325E79222102EF006CD2E9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49325E78222102EF006CD2E9 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		49325E64221EF217006CD2E9 /* BlogReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49325E68221EF217006CD2E9 /* BlogReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogReaderUITests.swift; sourceTree = "<group>"; };
 		49325E6A221EF217006CD2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49325E7622208F33006CD2E9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		49325E78222102EF006CD2E9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				49325E45221EF213006CD2E9 /* AppDelegate.swift */,
 				49325E47221EF213006CD2E9 /* ViewController.swift */,
+				49325E7622208F33006CD2E9 /* WebViewController.swift */,
 				49325E49221EF213006CD2E9 /* Main.storyboard */,
+				49325E78222102EF006CD2E9 /* Data.swift */,
 				49325E4F221EF217006CD2E9 /* Assets.xcassets */,
 				49325E51221EF217006CD2E9 /* LaunchScreen.storyboard */,
 				49325E54221EF217006CD2E9 /* Info.plist */,
@@ -260,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				49325E48221EF213006CD2E9 /* ViewController.swift in Sources */,
+				49325E79222102EF006CD2E9 /* Data.swift in Sources */,
 				49325E46221EF213006CD2E9 /* AppDelegate.swift in Sources */,
 				49325E4E221EF213006CD2E9 /* BlogReader.xcdatamodeld in Sources */,
+				49325E7722208F33006CD2E9 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
